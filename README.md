@@ -2,6 +2,8 @@
 
 This is a simple application of authentication with role based using OAuth2 and Spring Security
 
+First run the sql script
+
 Basic Auth: 
   Username: auth-client,
   Password: auth-secret
