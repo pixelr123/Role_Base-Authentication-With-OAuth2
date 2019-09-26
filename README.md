@@ -3,12 +3,12 @@
 This is a simple application of authentication with role based using OAuth2 and Spring Security
 
 Basic Auth: 
-  Username: auth-client
+  Username: auth-client,
   Password: auth-secret
 
 Step 1: create token: localhost:8080/oauth/token
 
-Step 2: put the access_token in header =  
-  A. Post: localhost:8080/users?access_token="<token>" 
+Step 2: put the access_token in header =
+  A. Post: localhost:8080/users?access_token="<token>",
   B. Get: localhost:8080/users/2?access_token="<token>"
  
