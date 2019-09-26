@@ -7,7 +7,6 @@ import java.util.List;
 @Data
 public class UserDto {
     private long id;
-    @NotNull(message = "firstName can't be empty")
     private String firstName;
     private String lastName;
     private String username;
